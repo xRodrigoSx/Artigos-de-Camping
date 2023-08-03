@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        img {
+            border-radius: 160px;
+        }
+        .container {
+            background-image: url('https://i0.wp.com/www.adventuremag.com.br/modalidade/wp-content/uploads/2022/02/wtr.png?w=1095&ssl=1');
+            background-position-x: -10px;
+            background-position-y: -80px;
+            background-size:108%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 75vh;
+            padding: 50px;
+        }
+
+        #menu {
+            background-image: url('https://i0.wp.com/www.adventuremag.com.br/modalidade/wp-content/uploads/2022/02/wtr.png?w=1095&ssl=1');
+            background-position-x: -10px;
+            background-size:108%;
+            background-color: #f3eddd;
+            color: #fff;
+            padding: 15px;
+            text-align: center;
+        }
+        header {
+            background-image: url('https://i0.wp.com/www.adventuremag.com.br/modalidade/wp-content/uploads/2022/02/wtr.png?w=1095&ssl=1');
+            margin-left: 57px;
+            margin-bottom: 26px;
+            background-color: #aaaaaa;
+            color: #fff;
+            padding: 0.5px;
+            text-align: center;
+        }
+
+        h1 {
+            color: rgb(255, 255, 255);
+            text-align: center;
+            font-size: 44px;
+            margin-right: 50px;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #aaaaaa;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: #000000;
+        }
+
+
+        #título {
+            text-align: center;
+        }
+
+        button {
+            background-color: #eaecec;
+            color: rgb(0, 0, 0);
+            padding: 12px 28px;
+            text-align: top;
+            border-radius: 12px;
+            font-size: 20px;
+            transition-duration: 0.4s;
+        }
+
+        button:hover {
+            background-color: #150fc4;
+            color: white;
+        }
+
+        .conteudo {
+            background-image: url('https://i0.wp.com/www.adventuremag.com.br/modalidade/wp-content/uploads/2022/02/wtr.png?w=1095&ssl=1');
+            background-position: center;
+        }
+
+        .lista-produtos {
+            display: flex;
+            justify-content: center;
+            
+            flex-wrap: wrap;
+        }
+
+        .produto {
+            text-align: center;
+            margin: 20px;
+            padding: 30px;
+            border: 2px solid #ddd;
+            border-radius: 10px;
+            width: 250px;
+            background-color: #fff;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: box-shadow 0.3s ease;
+        }
+
+        .produto h3 {
+            margin-top: 0;
+            color: var(--cor-primaria);
+        }
+
+        .produto p {
+            margin: 10px 0;
+        }
+
+        .produto .preco {
+            font-size: 18px;
+            color: var(--cor-primaria);
+        }
+
+        .produto img {
+            width: 200px;
+            height: 230px;
+            object-fit: cover;
+            margin-bottom: 7px;
+        }
+    </style>
+    <title>Produtos</title>
+</head>
+
+<body>
+    <div id="menu">
+        <button onclick="window.location.href='./main.html'"> Página Principal </button>
+        <button onclick="window.location.href='./sobrenos.html'"> Sobre Nós </button>
+        <button onclick="window.location.href='/produtos.html'"> Produtos </button>
+    </div>
+    <div class="container">
+        <img src="https://res.cloudinary.com/teepublic/image/private/s--z5Y4Pqfc--/c_fit,g_north_west,h_840,w_838/co_000000,e_outline:40/co_000000,e_outline:inner_fill:1/co_ffffff,e_outline:40/co_ffffff,e_outline:inner_fill:1/co_bbbbbb,e_outline:3:1000/c_mpad,g_center,h_1260,w_1260/b_rgb:eeeeee/c_limit,f_jpg,h_630,q_90,w_630/v1570476943/production/designs/6242233_0.jpg"
+            alt="" width="500px" height="" />
+    </div>
+    <div class="conteudo">
+        <header>
+            <h1>Produtos</h1>
+        </header>
+        <div class="lista-produtos">
+            <div class="produto">
+                <img src="https://down-br.img.susercontent.com/file/58f82b35f09bdf03acc9862ff1b3c800" alt="Barraca"
+                    width="" height="300" />
+                <h3> Barraca Camping Nautika</h3>
+                <div class="rating">
+                    <span class="star" onclick="rateProduct(1)">&#9733;</span>
+                    <span class="star" onclick="rateProduct(2)">&#9733;</span>
+                    <span class="star" onclick="rateProduct(3)">&#9733;</span>
+                    <span class="star" onclick="rateProduct(4)">&#9733;</span>
+                </div>
+                <p class="preco">R$989,90 </p>
+            </div>
+            <div class="produto">
+                <img src="https://m.media-amazon.com/images/I/71x1xco3oiL._AC_UF1000,1000_QL80_.jpg" alt="Mochila"
+                    width="" height="300" />
+                <h3> Mochila Camping Cargueira</h3>
+                <div class="rating">
+                    <span class="star" onclick="rateProduct(1)">&#9733;</span>
+                    <span class="star" onclick="rateProduct(2)">&#9733;</span>
+                    <span class="star" onclick="rateProduct(3)">&#9733;</span>
+                    <span class="star" onclick="rateProduct(4)">&#9733;</span>
+                    <span class="star" onclick="rateProduct(5)">&#9733;</span>
+                </div>
+                <p class="preco">R$569,90 </p>
+            </div>
+            <div class="produto">
+                <img src="https://2516.cdn.simplo7.net/static/2516/sku/156969785544228.jpg" alt="Cantil" width=""
+                    height="300" />
+                <h3> Cantil com capa</h3>
+                <div class="rating">
+                    <span class="star" onclick="rateProduct(1)">&#9733;</span>
+                    <span class="star" onclick="rateProduct(2)">&#9733;</span>
+                    <span class="star" onclick="rateProduct(3)">&#9733;</span>
+                    <span class="star" onclick="rateProduct(4)">&#9733;</span>
+                </div>
+                <p class="preco">R$149,49 </p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
