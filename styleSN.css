@@ -1,0 +1,60 @@
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #000000;
+}
+
+#menu {
+    background-image: url('https://i0.wp.com/www.adventuremag.com.br/modalidade/wp-content/uploads/2022/02/wtr.png?w=1095&ssl=1');
+    background-position-x: -70px;
+    background-size: 108%;
+    background-color: #f3eddd;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+}
+
+#título {
+    text-align: center;
+}
+
+button {
+    background-color: #c09329;
+    color: white;
+    padding: 12px 28px;
+    margin-left: 20px;
+    text-align: center;
+    border-radius: 12px;
+    font-size: 26px;
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+p {
+    font-size: 24px;
+    margin-bottom: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}

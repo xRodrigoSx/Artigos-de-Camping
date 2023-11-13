@@ -2,184 +2,144 @@
 <html>
 
 <head>
-    <style>
-        img {
-            border-radius: 160px;
-        }
-
-        .container {
-            background-image: url('https://i0.wp.com/www.adventuremag.com.br/modalidade/wp-content/uploads/2022/02/wtr.png?w=1095&ssl=1');
-            background-position-x: -10px;
-            background-position-y: -80px;
-            background-size: 108%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 75vh;
-            padding: 50px;
-        }
-
-        #menu {
-            background-image: url('https://i0.wp.com/www.adventuremag.com.br/modalidade/wp-content/uploads/2022/02/wtr.png?w=1095&ssl=1');
-            background-position-x: -10px;
-            background-size: 108%;
-            background-color: #f3eddd;
-            color: #fff;
-            padding: 15px;
-            text-align: center;
-        }
-
-        header {
-            background-image: url('https://i0.wp.com/www.adventuremag.com.br/modalidade/wp-content/uploads/2022/02/wtr.png?w=1095&ssl=1');
-            margin-left: 57px;
-            margin-bottom: 26px;
-            background-color: #aaaaaa;
-            color: #fff;
-            padding: 0.5px;
-            text-align: center;
-        }
-
-        h1 {
-            color: rgb(255, 255, 255);
-            text-align: center;
-            font-size: 44px;
-            margin-right: 50px;
-        }
-
-        body {
-            margin: 0;
-            padding: 0;
-            background-color: #aaaaaa;
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-            color: #000000;
-        }
-
-
-        #título {
-            text-align: center;
-        }
-
-        button {
-            background-color: #eaecec;
-            color: rgb(0, 0, 0);
-            padding: 12px 28px;
-            text-align: top;
-            border-radius: 12px;
-            font-size: 20px;
-            transition-duration: 0.4s;
-        }
-
-        button:hover {
-            background-color: #150fc4;
-            color: white;
-        }
-
-        .conteudo {
-            background-image: url('https://i0.wp.com/www.adventuremag.com.br/modalidade/wp-content/uploads/2022/02/wtr.png?w=1095&ssl=1');
-            background-position: center;
-        }
-
-        .lista-produtos {
-            display: flex;
-            justify-content: center;
-
-            flex-wrap: wrap;
-        }
-
-        .produto {
-            text-align: center;
-            margin: 20px;
-            padding: 30px;
-            border: 2px solid #ddd;
-            border-radius: 10px;
-            width: 250px;
-            background-color: #fff;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-            transition: box-shadow 0.3s ease;
-        }
-
-        .produto h3 {
-            margin-top: 0;
-            color: var(--cor-primaria);
-        }
-
-        .produto p {
-            margin: 10px 0;
-        }
-
-        .produto .preco {
-            font-size: 18px;
-            color: var(--cor-primaria);
-        }
-
-        .produto img {
-            width: 200px;
-            height: 230px;
-            object-fit: cover;
-            margin-bottom: 7px;
-        }
-
-        footer {
-            background-color: #333;
-            color: #fff;
-            padding: 10px;
-            text-align: center;
-        }
-    </style>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="styleP.css">
     <title>Produtos</title>
+    <link rel="icon" href="img/Logo.jpg">
+    <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=10, minimum-scale=1.0">
 </head>
 
 <body>
     <div id="menu">
-        <button onclick="window.location.href='./main.html'"> Página Principal </button>
+        <button onclick="window.location.href='./index.html'"> Página Principal </button>
         <button onclick="window.location.href='./sobrenos.html'"> Sobre Nós </button>
-        <button onclick="window.location.href='/produtos.html'"> Produtos </button>
+        <button onclick="window.location.href='./produtos.html'"> Produtos </button>
+        <p>
+            <img src="img/sdfg.PNG" alt="" width="107.59%" height="" />
+        </p>
     </div>
     <div class="container">
         <img src="https://res.cloudinary.com/teepublic/image/private/s--z5Y4Pqfc--/c_fit,g_north_west,h_840,w_838/co_000000,e_outline:40/co_000000,e_outline:inner_fill:1/co_ffffff,e_outline:40/co_ffffff,e_outline:inner_fill:1/co_bbbbbb,e_outline:3:1000/c_mpad,g_center,h_1260,w_1260/b_rgb:eeeeee/c_limit,f_jpg,h_630,q_90,w_630/v1570476943/production/designs/6242233_0.jpg"
-            alt="" width="500px" height="" />
+            alt="" width="670px" height="" />
     </div>
+    <img src="img/asd.PNG" alt="Infos" width="100%" height="" />
     <div class="conteudo">
         <header>
             <h1>Produtos</h1>
         </header>
         <div class="lista-produtos">
             <div class="produto">
-                <img src="https://down-br.img.susercontent.com/file/58f82b35f09bdf03acc9862ff1b3c800" alt="Barraca"
-                    width="" height="300" />
-                <h3> Barraca Camping Nautika</h3>
+                <a href="https://"><img src="https://down-br.img.susercontent.com/file/58f82b35f09bdf03acc9862ff1b3c800" alt="Barraca"
+                    width="" height="300" /></a>
+                    <a href="https://"><h3> Barraca para Camping Nautika Arizona Nautika até 10 Pessoas</h3></a>
+                <h4>Nautika</h4>
                 <div class="rating">
                     <span class="star" onclick="rateProduct(1)">&#9733;</span>
                     <span class="star" onclick="rateProduct(2)">&#9733;</span>
                     <span class="star" onclick="rateProduct(3)">&#9733;</span>
                     <span class="star" onclick="rateProduct(4)">&#9733;</span>
+                    (560)
                 </div>
-                <p class="preco">R$989,90 </p>
+                <p class="preco">R$989,90 à vista</p>
             </div>
             <div class="produto">
-                <img src="https://m.media-amazon.com/images/I/71x1xco3oiL._AC_UF1000,1000_QL80_.jpg" alt="Mochila"
-                    width="" height="300" />
-                <h3> Mochila Camping Cargueira</h3>
+                <a href="https://"><img src="https://m.media-amazon.com/images/I/71x1xco3oiL._AC_UF1000,1000_QL80_.jpg" alt="Mochila"
+                    width="" height="300" /></a>
+                    <a href="https://"><h3> Mochila Camping Cargueira Resist Trilhayepp 55L</h3></a>
+                <h4>Trilhayepp</h4>
                 <div class="rating">
                     <span class="star" onclick="rateProduct(1)">&#9733;</span>
                     <span class="star" onclick="rateProduct(2)">&#9733;</span>
                     <span class="star" onclick="rateProduct(3)">&#9733;</span>
                     <span class="star" onclick="rateProduct(4)">&#9733;</span>
                     <span class="star" onclick="rateProduct(5)">&#9733;</span>
+                    (352)
                 </div>
-                <p class="preco">R$569,90 </p>
+                <p class="preco">R$569,90 à vista</p>
             </div>
             <div class="produto">
-                <img src="https://2516.cdn.simplo7.net/static/2516/sku/156969785544228.jpg" alt="Cantil" width=""
-                    height="300" />
-                <h3> Cantil com capa</h3>
+                <a href="https://"><img src="https://2516.cdn.simplo7.net/static/2516/sku/156969785544228.jpg" alt="Cantil" width=""
+                    height="300" /></a>
+                    <a href="https://"><h3> Cantil Nautika Plastico Preto 0,9l - U</h3></a>
+                <h4>Nautika</h4>
                 <div class="rating">
                     <span class="star" onclick="rateProduct(1)">&#9733;</span>
                     <span class="star" onclick="rateProduct(2)">&#9733;</span>
                     <span class="star" onclick="rateProduct(3)">&#9733;</span>
                     <span class="star" onclick="rateProduct(4)">&#9733;</span>
+                    (962)
                 </div>
-                <p class="preco">R$149,49 </p>
+                <p class="preco">R$149,49 à vista</p>
+            </div>
+            <div class="produto">
+                <a href="https://"><img src="https://imagens.aventuraecia.com.br/products/gallery/6388fb70bffa76773e554ef1/img-6135.webp?size=360"
+                    alt="Cantil" width="" height="300" /></a>
+                    <a href="https://"><h3> Garrafa Térmica Inox 24h Gelad 12h Quent 709ml Azul Marinho</h3></a>
+                <h4>QGK</h4>
+                <div class="rating">
+                    <span class="star" onclick="rateProduct(1)">&#9733;</span>
+                    <span class="star" onclick="rateProduct(2)">&#9733;</span>
+                    <span class="star" onclick="rateProduct(3)">&#9733;</span>
+                    <span class="star" onclick="rateProduct(4)">&#9733;</span>
+                    (97)
+                </div>
+                <p class="preco">R$89,91 à vista</p>
+            </div>
+            <div class="produto">
+                <a href="https://"><img src="https://imagens.aventuraecia.com.br/produtos/arquivos_11323/8-(2).webp?size=360" alt="Cantil"
+                    width="" height="300" /></a>
+                    <a href="https://"><h3> Caixa Térmica 4,7 Litros 5qt Vermelha - Coleman</h3></a>
+                <h4>Coleman</h4>
+                <div class="rating">
+                    <span class="star" onclick="rateProduct(1)">&#9733;</span>
+                    <span class="star" onclick="rateProduct(2)">&#9733;</span>
+                    <span class="star" onclick="rateProduct(3)">&#9733;</span>
+                    <span class="star" onclick="rateProduct(4)">&#9733;</span>
+                    (739)
+                </div>
+                <p class="preco">R$98,91 à vista</p>
+            </div>
+            <div class="produto">
+                <a href="https://"><img src="https://imagens.aventuraecia.com.br/produtos/arquivos_4670/124dd.webp?size=360" alt="Cantil"
+                    width="" height="300" /></a>
+                    <a href="https://"><h3> Fogareiro Frontier + 04 Refil Gas - Nautika</h3></a>
+                <h4>Nautika</h4>
+                <div class="rating">
+                    <span class="star" onclick="rateProduct(1)">&#9733;</span>
+                    <span class="star" onclick="rateProduct(2)">&#9733;</span>
+                    <span class="star" onclick="rateProduct(3)">&#9733;</span>
+                    <span class="star" onclick="rateProduct(4)">&#9733;</span>
+                    (2.450)
+                </div>
+                <p class="preco">R$179,91 à vista</p>
+            </div>
+            <div class="produto">
+                <a href="https://"><img src="https://imagens.aventuraecia.com.br/products/gallery/607e4d6baf0194263d1f2a46/1250-3.webp?size=360"
+                    alt="Cantil" width="" height="300" /></a>
+                    <a href="https://"><h3> Saco De Dormir Viper Nautika 5 a 12ºc - Preto e Laranja</h3></a>
+                <h4>Nautika</h4>
+                <div class="rating">
+                    <span class="star" onclick="rateProduct(1)">&#9733;</span>
+                    <span class="star" onclick="rateProduct(2)">&#9733;</span>
+                    <span class="star" onclick="rateProduct(3)">&#9733;</span>
+                    <span class="star" onclick="rateProduct(4)">&#9733;</span>
+                    (865)
+                </div>
+                <p class="preco">R$137,62 à vista</p>
+            </div>
+            <div class="produto">
+                <a href="https://"><img src="https://imagens.aventuraecia.com.br/produtos/arquivos_7788/10.webp?size=360" alt="Cantil"
+                    width="" height="300" /></a>
+                    <a href="https://"><h3> Calça Forhonor 911 Olive Drab - Tatica, Militar, Airsoft, Ripstop</h3></a>
+                <h4>Forhonor</h4>
+                <div class="rating">
+                    <span class="star" onclick="rateProduct(1)">&#9733;</span>
+                    <span class="star" onclick="rateProduct(2)">&#9733;</span>
+                    <span class="star" onclick="rateProduct(3)">&#9733;</span>
+                    <span class="star" onclick="rateProduct(4)">&#9733;</span>
+                    (342)
+                </div>
+                <p class="preco">R$64,74 à vista</p>
             </div>
         </div>
     </div>

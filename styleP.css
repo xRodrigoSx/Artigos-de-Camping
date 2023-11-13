@@ -1,0 +1,166 @@
+.container {
+    background-image: url('https://i0.wp.com/www.adventuremag.com.br/modalidade/wp-content/uploads/2022/02/wtr.png?w=1095&ssl=1');
+    background-position-x: -70px;
+    background-position-y: -165px;
+    background-size: 108%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+    padding: 50px;
+}
+
+.container img {
+    margin-top: -70px;
+    border-radius: 160px;
+}
+
+#menu {
+    background-image: url('https://i0.wp.com/www.adventuremag.com.br/modalidade/wp-content/uploads/2022/02/wtr.png?w=1095&ssl=1');
+    background-position-x: -70px;
+    background-size: 108%;
+    background-color: #f3eddd;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+}
+
+#menu img{
+    margin-left: -120px;
+}
+
+header {
+    background-size: 100%;
+    background-image: url('https://i0.wp.com/www.adventuremag.com.br/modalidade/wp-content/uploads/2022/02/wtr.png?w=1095&ssl=1');
+    font-size: 32px;
+    margin-left: 0px;
+    margin-bottom: -50px;
+    color: #fff;
+    padding: 0.5px;
+    text-align: center;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 54px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #aaaaaa;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #000000;
+}
+
+#título {
+    text-align: center;
+}
+
+button {
+    background-color: #c09329;
+    color: white;
+    padding: 12px 28px;
+    margin-left: 20px;
+    text-align: center;
+    border-radius: 12px;
+    font-size: 26px;
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.conteudo {
+    background-image: url('https://i0.wp.com/www.adventuremag.com.br/modalidade/wp-content/uploads/2022/02/wtr.png?w=1095&ssl=1');
+    background-position: center;
+    background-size: 100%;
+    background-position-y: 0px;
+}
+
+.lista-produtos {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.produto a{
+    color: rgb(0, 0, 0);
+    text-decoration:dashed;
+}
+
+.produto {
+    text-align: center;
+    margin: 30px;
+    padding: 30px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    width: 320px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.produto h3 {
+    font-size: 24px;
+    text-align: left;
+    margin-bottom: 0px;
+    color: var(--cor-primaria);
+}
+
+.produto h4 {
+    color: #606060;
+    font-size: 24px;
+    text-align: left;
+    margin-top: 2px;
+    margin-bottom: 0px;
+}
+
+.produto p {
+    margin: 10px 0;
+}
+
+.produto .preco {
+    font-size: 26px;
+    color: var(--cor-primaria);
+    text-align: left;
+}
+
+.produto img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 7px;
+}
+
+.produto .rating {
+    font-size: 26px;
+    text-align: left;
+    margin-bottom: -10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    body{
+        background-color: #000000;
+    }
+    button{
+        width: 30%
+    }
+    img{
+        width: 100%;
+    }
+    .container {
+        flex-direction: column;
+    }
+}
